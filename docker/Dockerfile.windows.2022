@@ -1,5 +1,6 @@
 # escape=`
 FROM mcr.microsoft.com/powershell:nanoserver-ltsc2022
+USER ContainerAdministrator
 
 LABEL maintainer="Drone.IO Community <drone-dev@googlegroups.com>" `
   org.label-schema.name="Drone Gitea Release" `
